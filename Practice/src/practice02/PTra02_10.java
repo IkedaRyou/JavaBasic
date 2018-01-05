@@ -8,10 +8,11 @@ package practice02;
 
 public class PTra02_10 {
 	public static void main(String[] args) {
-		int moneyInHand = 1000;	// 所持金
-		int coffee = 120;	// コーヒーの値段
-		int snack = 200;	// スナック菓子
-
+		int moneyInHand = 1000; // 所持金
+		int coffee = 120; // コーヒーの値段
+		int snack = 200; // スナック菓子
+		double price = coffee + snack * 1.08;
+		System.out.println(moneyInHand - (int)price);
 		/*
 		 * ●一本120円（税別）の缶コーヒーを2本
 		 * ●一袋200円（税別）のスナック菓子を1袋
