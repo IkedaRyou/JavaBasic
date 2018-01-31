@@ -26,7 +26,7 @@ public class PTra10_01 {
 
 		// Userクラスを作成後に着手してください
 		// ★ User型の変数usを宣言してください
-		practice10_01 us = new practice10_01();
+		User us = new User();
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
