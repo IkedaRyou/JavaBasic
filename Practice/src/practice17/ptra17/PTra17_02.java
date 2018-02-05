@@ -6,6 +6,8 @@
  */
 package practice17.ptra17;
 
+import java.io.IOException;
+
 import practice17.common.ThrowExceptionUtil;
 
 public class PTra17_02 {
@@ -17,8 +19,8 @@ public class PTra17_02 {
 		}
 	}
 
-	public static void dispInput() {
-
+	public static void dispInput() throws IOException {
+//		throws IOExceptionをpublic static void dispInput()の後に入れることでエラーを投げる
 		System.out.println("文字を入力してください");
 
 		/*

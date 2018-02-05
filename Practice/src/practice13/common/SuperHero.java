@@ -2,7 +2,7 @@ package practice13.common;
 
 public class SuperHero extends Hero {
 
-	Item equipment = new Item();
+	Item equipment = new Item(getName(),getPower());
 
 	public Item getEquipment() {
 		return equipment;
@@ -12,6 +12,6 @@ public class SuperHero extends Hero {
 		this.equipment = equipment;
 	}
 	public int attack() {
-		return this.power+equipment.additionalDamage;
+		return this.getPower()+equipment.additionalDamage;
 	}
 }

@@ -20,11 +20,15 @@ public class Item {
 		this.additionalDamage = additionalDamage;
 	}
 
-	Item(String name) {
+	public Item(String name) {
 		this.name = name;
 	}
 
-	Item() {
+	public Item(String name, int i) {
+		this.name = name;
 		this.additionalDamage = getAdditionalDamage();
 	}
+
+
+
 }
