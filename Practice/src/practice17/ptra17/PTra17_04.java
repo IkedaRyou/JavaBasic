@@ -10,11 +10,20 @@ public class PTra17_04 {
 	public static void main(String[] args) {
 
 		String str = "スッキリわかるJava入門";
+		int x = 1000;
+		char[] array = str.toCharArray();
+		for (int i = 0; i < str.length(); i++) {
+			System.out.print(array[i]);
+			try {
+				Thread.sleep(x);
+			} catch (InterruptedException e) {
+				/* エラーが発生した場合はここにくる */
+			}
+			/*
+			 * ★ strに入っている文字列を1文字ずつゆっくり表示させるプログラムを完成させてください
+			 * ※ Thread.sleep を使用すること
+			 */
 
-		/*
-		 * ★ strに入っている文字列を1文字ずつゆっくり表示させるプログラムを完成させてください
-		 * ※ Thread.sleep を使用すること
-		 */
-
+		}
 	}
 }
